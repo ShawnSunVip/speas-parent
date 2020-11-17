@@ -1,0 +1,6 @@
+speas-parent/speas-web/target/classes/application.yml
+*.iml
+speas-parent/.idea/.gitignore
+speas-parent/speas-web/target/classes/application-dev.yml
+speas-parent/speas-web/target/classes/application-prod.yml
+speas-parent/speas-web/target/
