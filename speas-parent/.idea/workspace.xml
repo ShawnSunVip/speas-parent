@@ -19,24 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97e50cc-9a62-4dc5-9356-77721e61bfa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/speas-business/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-common/src/main/java/com/sun/speas/common/enums/HttpsStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-swagger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-swagger/src/main/java/com/sun/speas/config/SwaggerAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-swagger/src/main/java/com/sun/speas/properties/SwaggerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-swagger/src/main/resources/META_INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/src/main/java/com/sun/speas/SpeasApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/src/main/java/com/sun/speas/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speas-web/web/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b97e50cc-9a62-4dc5-9356-77721e61bfa4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,9 +45,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\MyMaven_V2\repository" />
-        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="D:\MyMaven_V2\settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../../DevelopTools/MyMaven/repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../DevelopTools/MyMaven/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -85,12 +68,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/speas-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43336624" />
-    <property name="settings.editor.selected.configurable" value="swagger" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -131,6 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605606619434</updated>
       <workItem from="1605606625518" duration="6251000" />
+      <workItem from="1605618044727" duration="2046000" />
     </task>
     <servers />
   </component>
@@ -147,6 +131,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605606643227">
@@ -185,9 +170,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="293" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1605612112567">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="346" y="63" key="SettingsEditor" timestamp="1605623033924">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="346" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605623033924" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605612112567" />
     <state x="166" y="297" key="new project wizard" timestamp="1605612109422">
       <screen x="0" y="0" width="1920" height="1040" />

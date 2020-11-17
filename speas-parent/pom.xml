@@ -12,7 +12,6 @@
         <module>speas-business</module>
         <module>speas-web</module>
         <module>speas-swagger</module>
-        <module>speas-common</module>
     </modules>
 
     <properties>
