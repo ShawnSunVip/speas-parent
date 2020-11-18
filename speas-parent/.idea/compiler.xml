@@ -9,7 +9,7 @@
         <module name="speas-core" />
         <module name="speas-business" />
         <module name="speas-web" />
-        <module name="speas-swagger" />
+        <module name="speas-autoswagger" />
         <module name="speas-common" />
       </profile>
     </annotationProcessing>

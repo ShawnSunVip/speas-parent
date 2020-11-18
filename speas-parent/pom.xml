@@ -11,7 +11,6 @@
         <module>speas-core</module>
         <module>speas-business</module>
         <module>speas-web</module>
-        <module>speas-swagger</module>
     </modules>
 
     <properties>
@@ -29,6 +28,21 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <!-- 基础功能包 -->
+            <dependency>
+                <groupId>com.sun</groupId>
+                <artifactId>speas-core</artifactId>
+                <version>${speas.version}</version>
+            </dependency>
+
+            <!-- 业务包 -->
+            <dependency>
+                <groupId>com.sun</groupId>
+                <artifactId>speas-business</artifactId>
+                <version>${speas.version}</version>
+            </dependency>
+
             <!--mybatis-plus-->
             <dependency>
                 <groupId>com.baomidou</groupId>

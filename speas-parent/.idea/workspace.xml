@@ -19,7 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97e50cc-9a62-4dc5-9356-77721e61bfa4" name="Default Changelist" comment="" />
+    <list default="true" id="b97e50cc-9a62-4dc5-9356-77721e61bfa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/READMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-autoswagger/src/main/resources/META_INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-business/src/main/java/com/sun/speas/dao/TestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-business/src/main/java/com/sun/speas/dto/TestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-business/src/main/java/com/sun/speas/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-business/src/main/java/com/sun/speas/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-business/src/main/java/com/sun/speas/vo/TestVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-core/src/main/java/com/sun/speas/enums/HttpStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-core/src/main/java/com/sun/speas/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speas-core/src/main/java/com/sun/speas/po/ResponseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speas-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/speas-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speas-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/speas-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speas-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/speas-autoswagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speas-swagger/src/main/java/com/sun/speas/config/SwaggerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/speas-autoswagger/src/main/java/com/sun/speas/config/SwaggerAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speas-swagger/src/main/java/com/sun/speas/properties/SwaggerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/speas-autoswagger/src/main/java/com/sun/speas/properties/SwaggerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speas-swagger/src/main/resources/META_INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/speas-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/speas-web/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,9 +64,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$PROJECT_DIR$/../../../DevelopTools/MyMaven/repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../DevelopTools/MyMaven/settings.xml" />
+        <option name="localRepository" value="D:\MyMaven_V2\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\MyMaven_V2\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -68,17 +87,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/speas-web/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43336624" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="com.sun.speas.po" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\KISAdvance\speas-parent\speas-parent\speas-web\src\main\resources" />
     </key>
@@ -103,6 +125,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -113,8 +138,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605606619434</updated>
-      <workItem from="1605606625518" duration="6251000" />
-      <workItem from="1605618044727" duration="2046000" />
+      <workItem from="1605606625518" duration="12199000" />
+      <workItem from="1605668972053" duration="6176000" />
     </task>
     <servers />
   </component>
@@ -134,47 +159,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1605672117649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605672117649" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605606643227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605606643227" />
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state width="1877" height="293" key="GridCell.Tab.1.center" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state width="1877" height="293" key="GridCell.Tab.1.center" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state width="1877" height="293" key="GridCell.Tab.1.left" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state width="1877" height="293" key="GridCell.Tab.1.left" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state width="1877" height="293" key="GridCell.Tab.1.right" timestamp="1605611592141">
+    <state width="1877" height="293" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state width="1877" height="293" key="GridCell.Tab.1.right" timestamp="1605668927698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605611592141" />
-    <state x="346" y="63" key="SettingsEditor" timestamp="1605623033924">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="293" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605668927698" />
+    <state x="332" y="188" key="SettingsEditor" timestamp="1605676258945">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="346" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605623033924" />
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605612112567" />
+    <state x="332" y="188" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605676258945" />
     <state x="166" y="297" key="new project wizard" timestamp="1605612109422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

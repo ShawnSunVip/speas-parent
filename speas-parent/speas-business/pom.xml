@@ -11,5 +11,11 @@
 
     <artifactId>speas-business</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>speas-core</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
