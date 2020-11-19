@@ -17,4 +17,11 @@
       <module name="speas-common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="speas-business" options="-parameters" />
+      <module name="speas-core" options="-parameters" />
+      <module name="speas-web" options="-parameters" />
+    </option>
+  </component>
 </project>

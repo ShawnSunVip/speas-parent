@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sun</groupId>
+    <groupId>com.sun.speas</groupId>
     <artifactId>speas-autoswagger</artifactId>
     <version>1.0-SNAPSHOT</version>
 

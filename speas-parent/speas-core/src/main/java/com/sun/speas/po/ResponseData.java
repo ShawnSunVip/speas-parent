@@ -1,7 +1,7 @@
 package com.sun.speas.po;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.sun.speas.enums.HttpStatusEnum;
+import com.sun.speas.enums.HttpStatus;
 
 import java.io.Serializable;
 
@@ -173,7 +173,7 @@ public class ResponseData<T> implements Serializable {
      * @param <T>
      * @return
      */
-    public static <T> ResponseData<T> buildFaildResponseData(HttpStatusEnum httpstatus){
+    public static <T> ResponseData<T> buildFaildResponseData(HttpStatus httpstatus){
         return new Builder<T>()
                 .setSuccess(Boolean.FALSE)
                 .setMessage(httpstatus.getMessage())

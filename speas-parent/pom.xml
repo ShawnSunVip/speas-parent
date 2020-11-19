@@ -4,9 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sun</groupId>
+    <groupId>com.sun.speas</groupId>
     <artifactId>speas-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <!-- 引入springboot的启动父项目，管理springboot相关包，版本对齐当前springboot版本 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.4.RELEASE</version>
+    </parent>
+
     <modules>
         <module>speas-core</module>
         <module>speas-business</module>
@@ -14,6 +22,8 @@
     </modules>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <speas.version>${project.version}</speas.version>
         <java.version>1.8</java.version>
         <mybatis.version>3.3.2</mybatis.version>
@@ -21,7 +31,6 @@
         <druid.version>1.1.21</druid.version>
         <fastjson.version>1.2.70</fastjson.version>
         <hutool.version>5.3.7</hutool.version>
-        <configuration.version>2.4.0</configuration.version>
     </properties>
 
     <packaging>pom</packaging>
@@ -47,14 +56,14 @@
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
-                <version>${mp.version}</version>
+                <version>${mybatis.version}</version>
             </dependency>
 
             <!--数据库驱动-->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>${mysql-connector-java.version}</version>
+                <version>${mysql.version}</version>
             </dependency>
 
             <!--数据库连接池-->
@@ -76,12 +85,6 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-configuration-processor</artifactId>
-                <version>${configuration.version}</version>
             </dependency>
 
         </dependencies>

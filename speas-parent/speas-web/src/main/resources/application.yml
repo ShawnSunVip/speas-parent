@@ -6,3 +6,9 @@ server:
 spring:
   profiles:
     active: dev
+
+
+#swagger 开关
+speas:
+    swagger:
+      enable: false

@@ -1,6 +1,6 @@
 package com.sun.speas.exception;
 
-import com.sun.speas.enums.HttpStatusEnum;
+import com.sun.speas.enums.HttpStatus;
 
 /**
  * 业务异常
@@ -13,7 +13,7 @@ public class BusinessException extends RuntimeException {
      * 通过构造方法来传递 业务异常信息
      * @param httpStatus
      */
-    public BusinessException(HttpStatusEnum httpStatus){
+    public BusinessException(HttpStatus httpStatus){
         this.code = httpStatus.getCode();
         this.message =httpStatus.getMessage();
     }

@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author sunxiang
  * @date 2020-11-17 19:10
  **/
-@ConfigurationProperties(prefix = "spring.speas.swagger")
+@ConfigurationProperties(prefix = "speas.swagger")
 public class SwaggerProperties {
     /**
      * swagger开关控制,默认关闭
