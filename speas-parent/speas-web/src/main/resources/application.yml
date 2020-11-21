@@ -7,21 +7,56 @@ spring:
   profiles:
     active: dev
 
-
-#swagger配置
+#系统一些自定义属性
 speas:
+    #swagger配置
+    #http://localhost:8080/swagger-ui.html
     swagger:
       #开关
       enable: true
       #分组，使用逗号隔开
-      group: speas
+      group: inapi,outapi
       #分组名称，使用逗号隔开
-      group-name: speas
+      group-name: 内部API,外部API
       #扫描包，使用逗号隔开
-      scan-package: com.sun.speas.controller
+      scan-package: com.sun.speas.controller,com.sun.speas.apicontroller
       #标题
       api-info.title: API接口文档
       #描述
       api-info.description: 方便开发人员，测试人员使用
       #版本号
       api-info.version: V1.0.0.RELEASE
+    #webmvc属性配置
+    webmvc:
+      #跨域设置
+      cors:
+        #开关
+        enable: true
+        #设置允许哪些源来访问,多个源用逗号分开
+        allowed-origins: Origin,X-Requested-With
+        #允许HTTP请求方法
+        allowed-methods: GET,POST,PUT,DELETE
+        #设置允许的头文件
+        allowed-headers:
+        #设置浏览器是否应该发送凭据cookie
+        allow-credentials: false
+        #设置响应HEAD,默认无任何设置，不可以使用*号
+        exposed-headers:
+        #设置多长时间内不需要发送预检验请求，可以缓存该结果，默认1800秒
+        max-age: 1800
+      #路由配置
+      path:
+        #是否开启所有接口的前缀prefix,默认前面添加api
+        enable-all-prefix: true
+        #自定义添加前缀,默认api
+        prefix: api
+        #区分大小写,默认false
+        case-sensitive: false
+        #是否缓存匹配规则,默认null等于true
+        cache-patterns: false
+        #是否去除前后空格,默认false
+        trim-tokens: false
+        #设置URL末尾是否支持斜杠，默认true
+        use-trailing-slash-match: false
+        #忽略URL前缀控制器设置,默认空，如果开启前缀功能，这里需要把swagger忽略掉
+        ignore-controller-url-prefix: springfox.documentation.swagger.web.ApiResourceController

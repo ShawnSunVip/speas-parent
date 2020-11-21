@@ -15,12 +15,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.sun</groupId>
+            <groupId>com.sun.speas</groupId>
             <artifactId>speas-core</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.sun</groupId>
+            <groupId>com.sun.speas</groupId>
             <artifactId>speas-business</artifactId>
         </dependency>
 
@@ -44,6 +44,7 @@
             <artifactId>speas-autoswagger</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
 </project>

@@ -42,16 +42,16 @@
 
             <!-- 基础功能包 -->
             <dependency>
-                <groupId>com.sun</groupId>
+                <groupId>com.sun.speas</groupId>
                 <artifactId>speas-core</artifactId>
-                <version>${speas.version}</version>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
 
             <!-- 业务包 -->
             <dependency>
-                <groupId>com.sun</groupId>
+                <groupId>com.sun.speas</groupId>
                 <artifactId>speas-business</artifactId>
-                <version>${speas.version}</version>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
 
             <!--mybatis-plus-->
