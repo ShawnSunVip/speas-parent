@@ -37,6 +37,13 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+
+        <!-- 自动化swagger -->
+        <dependency>
+            <groupId>com.sun.speas</groupId>
+            <artifactId>speas-autoswagger</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

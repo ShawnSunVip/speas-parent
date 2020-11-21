@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @descript
  * @create 2020-11-19 8:00 下午
  */
-@ComponentScan(value = "com.sun.speas")
-@Configuration
+//@ComponentScan(value = "com.sun.speas")
+//@Configuration
 public class SpringMvcConfig {
 }

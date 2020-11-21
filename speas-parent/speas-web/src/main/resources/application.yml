@@ -8,7 +8,20 @@ spring:
     active: dev
 
 
-#swagger 开关
+#swagger配置
 speas:
     swagger:
-      enable: false
+      #开关
+      enable: true
+      #分组，使用逗号隔开
+      group: speas
+      #分组名称，使用逗号隔开
+      group-name: speas
+      #扫描包，使用逗号隔开
+      scan-package: com.sun.speas.controller
+      #标题
+      api-info.title: API接口文档
+      #描述
+      api-info.description: 方便开发人员，测试人员使用
+      #版本号
+      api-info.version: V1.0.0.RELEASE

@@ -18,9 +18,9 @@ import java.io.IOException;
  * @author sunxiang
  * @date 2020-11-19 8:33
  **/
-@Component
-@ServletComponentScan
-@WebFilter(urlPatterns = "/*",filterName = "CorsFilter" )
+//@Component
+//@ServletComponentScan
+//@WebFilter(urlPatterns = "/*",filterName = "CorsFilter" )
 public class CorsFilter implements Filter {
 
     @Override
