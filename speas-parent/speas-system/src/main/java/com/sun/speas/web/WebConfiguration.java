@@ -1,6 +1,6 @@
 package com.sun.speas.web;
 
-import com.sun.speas.utils.CharacterUtils;
+import com.sun.speas.common.CharacterUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -8,10 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.AntPathMatcher;
-import org.springframework.web.servlet.config.annotation.CorsRegistration;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.*;
 
 import java.util.Objects;
 
@@ -21,6 +18,7 @@ import java.util.Objects;
  * web配置文件
  *  1。路由配置
  *  2。跨域配置
+ *  3。拦截器
  *  。。。
  *  其他功能可通过重写WebMvcConfigurer实现
  * @create 2020-11-21 5:41 下午
@@ -105,5 +103,25 @@ public class WebConfiguration implements WebMvcConfigurer {
         if (Objects.nonNull(webProperties.getCors().getMaxAge())) {
             corsRegistration.maxAge(webProperties.getCors().getMaxAge());
         }
+    }
+
+    /**
+     * 注册拦截器
+     *
+     * @param registry
+     */
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+    }
+
+    /**
+     * 静态资源映射
+     *
+     * @param registry
+     */
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
 }

@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.sun.speas</groupId>
     <artifactId>speas-business</artifactId>
 
     <dependencies>
@@ -27,10 +28,10 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

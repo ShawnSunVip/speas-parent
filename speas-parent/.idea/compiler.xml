@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="speas-core" />
         <module name="speas-business" />
-        <module name="speas-web" />
         <module name="speas-autoswagger" />
+        <module name="speas-web" />
+        <module name="speas-system" />
         <module name="speas-common" />
+        <module name="speas-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="speas-business" options="-parameters" />
       <module name="speas-core" options="-parameters" />
+      <module name="speas-system" options="-parameters" />
       <module name="speas-web" options="-parameters" />
     </option>
   </component>

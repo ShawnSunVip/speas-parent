@@ -19,8 +19,7 @@
         <module>speas-core</module>
         <module>speas-business</module>
         <module>speas-web</module>
-
-        <module>speas-autoswagger</module>
+        <module>speas-system</module>
     </modules>
 
     <properties>
@@ -44,14 +43,21 @@
             <dependency>
                 <groupId>com.sun.speas</groupId>
                 <artifactId>speas-core</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>${speas.version}</version>
             </dependency>
 
             <!-- 业务包 -->
             <dependency>
                 <groupId>com.sun.speas</groupId>
                 <artifactId>speas-business</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>${speas.version}</version>
+            </dependency>
+
+            <!-- 系统包 -->
+            <dependency>
+                <groupId>com.sun.speas</groupId>
+                <artifactId>speas-system</artifactId>
+                <version>${speas.version}</version>
             </dependency>
 
             <!--mybatis-plus-->

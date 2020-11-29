@@ -13,17 +13,18 @@
 轻量级系统架构，满足基本业务处理，便捷系统复制。如需一些其他功能，通过自动化组件扩展系统，yml配置对组件功能动态配置，做到即插即用。
 ======================================结构介绍=====================================
 
-speas-parent 父工程
+speas-parent       父工程
 
-speas-business     业务工程
+speas-business     业务工程(详细介绍见工程的README.md)
 
-speas-core         基础工具工程
+speas-core         基础工具工程(详细介绍见工程的README.md)
 
-speas-web          web工程
+speas-web          web工程(详细介绍见工程的README.md)
+
 =====================================自动化组件介绍=================================
 
 speas-autoxxx 自动化组件
 
-speas-autoswagger  自动化swagger工程，即插即用，可以通过配置文件来控制开关及一些属性配置
+speas-autoswagger  自动化swagger工程(详细介绍见工程的README.md)
 
-speas-automail     自动化邮件工程 ，即插即用，可以通过配置文件来控制开关及一些属性配置
+speas-automail     自动化邮件工程(详细介绍见工程的README.md)

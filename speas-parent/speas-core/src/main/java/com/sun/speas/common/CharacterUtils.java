@@ -1,4 +1,4 @@
-package com.sun.speas.utils;
+package com.sun.speas.common;
 
 /**
  * @author shawn

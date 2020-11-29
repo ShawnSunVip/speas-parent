@@ -9,6 +9,7 @@ public enum HttpStatus {
     AUTHOS_DENIED(10000, "权限不足"),
     TOKEN_INVIALID(10005, "token失效"),
     RUNTIME_EXCEPTION(20002, "运行时异常"),
+    DATE_PARSE_EXCEPTION(34001, "日期转换异常"),
     SYSTEM_EXCEPTION(99999, "系统异常");
 
 

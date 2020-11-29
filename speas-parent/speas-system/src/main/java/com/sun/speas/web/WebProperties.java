@@ -1,5 +1,6 @@
 package com.sun.speas.web;
 
+
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**

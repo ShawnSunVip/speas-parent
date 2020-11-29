@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "speas.webmvc",
+      "type": "com.sun.speas.web.WebProperties",
+      "sourceType": "com.sun.speas.web.WebProperties"
+    },
+    {
+      "name": "speas.webmvc.cors",
+      "type": "com.sun.speas.web.WebProperties$CorsRegister",
+      "sourceType": "com.sun.speas.web.WebProperties",
+      "sourceMethod": "getCors()"
+    },
+    {
+      "name": "speas.webmvc.path",
+      "type": "com.sun.speas.web.WebProperties$Path",
+      "sourceType": "com.sun.speas.web.WebProperties",
+      "sourceMethod": "getPath()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

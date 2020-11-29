@@ -14,20 +14,22 @@
     <packaging>jar</packaging>
 
     <dependencies>
+        <!-- 工具包 -->
         <dependency>
             <groupId>com.sun.speas</groupId>
             <artifactId>speas-core</artifactId>
         </dependency>
 
+        <!-- 业务包 -->
         <dependency>
             <groupId>com.sun.speas</groupId>
             <artifactId>speas-business</artifactId>
         </dependency>
 
-        <!-- web -->
+        <!-- 系统包 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.sun.speas</groupId>
+            <artifactId>speas-system</artifactId>
         </dependency>
 
         <!-- 热部署 -->

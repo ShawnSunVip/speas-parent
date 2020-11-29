@@ -6,6 +6,7 @@ import com.sun.speas.enums.HttpStatus;
 import java.io.Serializable;
 
 /**
+ * http 返回结果
  * @author sunxiang
  * @date 2020-11-18 11:07
  **/
