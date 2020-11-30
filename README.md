@@ -20,7 +20,7 @@ speas-parent 父工程
     
     speas-core         基础工具工程(详细介绍见工程的README.md)
     
-    speas-core         系统工具工程(详细介绍见工程的README.md)
+    speas-system       系统工具工程(详细介绍见工程的README.md)
     
     speas-web          web工程(详细介绍见工程的README.md)
 
