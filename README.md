@@ -18,15 +18,17 @@ speas-parent 父工程
 
     speas-business     业务工程
     
-    speas-core         基础工具工程
+    speas-core         基础工具工程(详细介绍见工程的README.md)
     
-    speas-web          web工程
+    speas-core         系统工具工程(详细介绍见工程的README.md)
+    
+    speas-web          web工程(详细介绍见工程的README.md)
 
 =====================================自动化组件介绍=================================
 
 speas-autoxxx 自动化组件
 
-    speas-autoswagger  自动化swagger工程，即插即用，可以通过配置文件来控制开关及一些属性配置
+    speas-autoswagger  自动化swagger工程(详细介绍见工程的README.md)
 
-    speas-automail     自动化邮件工程 ，即插即用，可以通过配置文件来控制开关及一些属性配置
+    speas-automail     自动化邮件工程(详细介绍见工程的README.md)
    
