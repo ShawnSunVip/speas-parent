@@ -18,6 +18,86 @@
       "sourceMethod": "getPath()"
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "name": "speas.webmvc.cors.allow-credentials",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sun.speas.web.WebProperties$CorsRegister",
+      "defaultValue": true
+    },
+    {
+      "name": "speas.webmvc.cors.allowed-headers",
+      "type": "java.lang.String[]",
+      "sourceType": "com.sun.speas.web.WebProperties$CorsRegister"
+    },
+    {
+      "name": "speas.webmvc.cors.allowed-methods",
+      "type": "java.lang.String[]",
+      "sourceType": "com.sun.speas.web.WebProperties$CorsRegister"
+    },
+    {
+      "name": "speas.webmvc.cors.allowed-origins",
+      "type": "java.lang.String[]",
+      "sourceType": "com.sun.speas.web.WebProperties$CorsRegister"
+    },
+    {
+      "name": "speas.webmvc.cors.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sun.speas.web.WebProperties$CorsRegister",
+      "defaultValue": false
+    },
+    {
+      "name": "speas.webmvc.cors.exposed-headers",
+      "type": "java.lang.String[]",
+      "sourceType": "com.sun.speas.web.WebProperties$CorsRegister"
+    },
+    {
+      "name": "speas.webmvc.cors.max-age",
+      "type": "java.lang.Long",
+      "sourceType": "com.sun.speas.web.WebProperties$CorsRegister",
+      "defaultValue": 18000
+    },
+    {
+      "name": "speas.webmvc.path.cache-patterns",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sun.speas.web.WebProperties$Path",
+      "defaultValue": true
+    },
+    {
+      "name": "speas.webmvc.path.case-sensitive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sun.speas.web.WebProperties$Path",
+      "defaultValue": true
+    },
+    {
+      "name": "speas.webmvc.path.enable-all-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sun.speas.web.WebProperties$Path",
+      "defaultValue": false
+    },
+    {
+      "name": "speas.webmvc.path.ignore-controller-url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.sun.speas.web.WebProperties$Path"
+    },
+    {
+      "name": "speas.webmvc.path.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.sun.speas.web.WebProperties$Path",
+      "defaultValue": "api"
+    },
+    {
+      "name": "speas.webmvc.path.trim-tokens",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sun.speas.web.WebProperties$Path",
+      "defaultValue": false
+    },
+    {
+      "name": "speas.webmvc.path.use-trailing-slash-match",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sun.speas.web.WebProperties$Path",
+      "defaultValue": true
+    }
+  ],
   "hints": []
 }

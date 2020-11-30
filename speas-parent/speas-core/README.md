@@ -38,3 +38,4 @@ po        po工具
 utils     其他工具
     
     DateUtils 日期工具包
+    UUIDUtils UUID生成工具
